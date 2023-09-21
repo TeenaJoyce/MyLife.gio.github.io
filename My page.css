@@ -1,0 +1,89 @@
+
+/*marquee bar*/
+
+marquee{
+      font-size: 30px;
+      font-weight: 1000;
+      color: #05f2f5;
+	  font-style:bold;
+	  background-color: #610d3d;
+	  padding: 10px 0px;
+      }
+
+/*nav bar*/
+ul {
+	
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #610d3d;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #05f2f5;
+}
+
+.active {
+  background-color: #05f2f5;
+}
+
+/*grid*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background: linear-gradient(to top, #660033 0%, #00ffff 100%);
+  padding: 5 px;
+}
+.grid-item {
+  
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+  border:none;
+}
+ .grid-item img{
+	   margin-top: 8px;
+  vertical-align: middle;
+p{
+	text-align:center;
+}
+/*works grid*/
+.wpics {
+	  flex: 30%;
+	  padding: 5px;
+	  width: 100%;
+	}
+
+	}
+	.works {
+	   display: flex;
+	}
+	
+<div class="instruc">
+<p> Once logged in you may :</p>
+<p> leave and view comments</p>
+<p> like and unlike pictures</p>
+<p> And add images<p>
+</div>
+  
+	
+
+
+
+
+
+
